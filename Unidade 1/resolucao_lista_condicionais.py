@@ -31,12 +31,10 @@ else:
 #            dizendo que o número é inválido.
 # -------------------------------------------------------------
 
-import math
-
 numero = float(input("Digite um número: "))
 
 if numero >= 0:
-    print("Raiz quadrada:", math.sqrt(numero))
+    print("Raiz quadrada:", numero ** 0.5)
 else:
     print("Número inválido")
 
@@ -50,7 +48,7 @@ else:
 numero = float(input("Digite um número real: "))
 
 if numero > 0:
-    print("Raiz quadrada:", math.sqrt(numero))
+    print("Raiz quadrada:", numero ** 0.5)
 else:
     print("Número ao quadrado:", numero ** 2)
 
@@ -67,7 +65,7 @@ numero = float(input("Digite um número: "))
 
 if numero > 0:
     print("Número ao quadrado:", numero ** 2)
-    print("Raiz quadrada:", math.sqrt(numero))
+    print("Raiz quadrada:", numero ** 0.5)
 else:
     print("O número não é positivo.")
 
@@ -205,6 +203,11 @@ else:
 #            "Número inválido". Se o número for positivo, calcular o logaritmo deste
 #            número.
 # -------------------------------------------------------------
+
+# Para a raiz quadrada usamos o operador ** (elevar a 0.5), que não precisa de
+# biblioteca. Já o logaritmo não tem um operador simples na linguagem, por isso
+# é necessário importar a biblioteca "math" e usar a função math.log().
+import math
 
 numero = float(input("Digite um número: "))
 
@@ -544,8 +547,8 @@ else:
         raiz = -b / (2 * a)
         print("Raiz única:", raiz)
     else:
-        raiz1 = (-b + math.sqrt(delta)) / (2 * a)
-        raiz2 = (-b - math.sqrt(delta)) / (2 * a)
+        raiz1 = (-b + (delta ** 0.5)) / (2 * a)
+        raiz2 = (-b - (delta ** 0.5)) / (2 * a)
         print("Raiz 1:", raiz1)
         print("Raiz 2:", raiz2)
 
