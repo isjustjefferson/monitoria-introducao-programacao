@@ -4,34 +4,56 @@ Resoluções das listas de exercícios da disciplina de **Introdução à Progra
 
 ## Estrutura do repositório
 
+Cada lista tem seu próprio diretório dentro de `Unidade 1/`, e cada questão da lista
+é um arquivo `.py` separado.
+
 ```
 Monitoria/
 └── Unidade 1/
-    ├── resolucao_lista_1.py
-    ├── resolucao_lista_2.py
-    ├── resolucao_lista_3.py
-    ├── resolucao_lista_variaveis_expressoes.py
-    └── resolucao_lista_condicionais.py
+    ├── Lista 1/
+    │   ├── README.md
+    │   ├── questao_xx.py       # onde xx é o número da questão
+    │   └── ...
+    ├── Lista 2/
+    │   ├── README.md
+    │   ├── questao_xx.py       # onde xx é o número da questão
+    │   └── ...
+    ├── Lista 3/
+    │   ├── README.md
+    │   ├── questao_xx.py       # onde xx é o número da questão
+    │   └── ...
+    ├── Lista Condicionais/
+    │   ├── README.md
+    │   ├── questao_xx.py       # onde xx é o número da questão
+    │   └── ...
+    └── Lista Variáveis e Expressões/
+        ├── README.md
+        ├── questao_xx.py       # onde xx é o número da questão
+        └── ...
 ```
 
 ## Conteúdo
 
-| Arquivo | Tema | Questões |
+| Diretório | Tema | Questões |
 | --- | --- | --- |
-| `resolucao_lista_1.py` | Lista 1 | 5 |
-| `resolucao_lista_2.py` | Lista 2 (condicionais) | 10 |
-| `resolucao_lista_3.py` | Lista 3 (estruturas de repetição) | 8 |
-| `resolucao_lista_variaveis_expressoes.py` | Variáveis e expressões | 52 |
-| `resolucao_lista_condicionais.py` | Comandos condicionais | 41 |
+| `Unidade 1/Lista 1/` | Lista 1 | 5 |
+| `Unidade 1/Lista 2/` | Lista 2 (condicionais) | 10 |
+| `Unidade 1/Lista 3/` | Lista 3 (estruturas de repetição) | 8 |
+| `Unidade 1/Lista Condicionais/` | Comandos condicionais | 41 |
+| `Unidade 1/Lista Variáveis e Expressões/` | Variáveis e expressões | 52 |
 
-Cada questão traz o enunciado como comentário (`#`) logo acima da resolução.
+Cada arquivo `questao_xx.py` traz o enunciado como comentário (`#`) logo acima da
+resolução. Os diretórios também possuem um `README.md` próprio, com orientações
+sobre a lista.
 
 ## Como executar
 
-É necessário ter o Python 3 instalado. Execute o arquivo desejado:
+É necessário ter o Python 3 instalado. Entre no diretório da lista e execute a
+questão desejada:
 
 ```bash
-python "Unidade 1/resolucao_lista_1.py"
+python "Unidade 1/Lista 1/questao_01.py"
 ```
 
-Os programas leem os dados pelo terminal (`input()`). Basta digitá-los quando solicitado.
+Os programas leem os dados pelo terminal (`input()`). Basta digitá-los quando
+solicitado.
