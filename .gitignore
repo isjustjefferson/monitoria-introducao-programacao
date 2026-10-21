@@ -1,6 +1,9 @@
 # PDFs: material de origem e resolucoes em PDF nao entram no repositorio
 *.pdf
 
+# Acompanhamentos: material de uso pessoal
+Acompanhamentos/
+
 # Python
 __pycache__/
 *.py[cod]
