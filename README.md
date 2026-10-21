@@ -57,3 +57,20 @@ python "Unidade 1/Lista 1/questao_01.py"
 
 Os programas leem os dados pelo terminal (`input()`). Basta digitá-los quando
 solicitado.
+
+## PDFs das resoluções
+
+É possível gerar um PDF por lista, com o enunciado e a resolução de cada questão
+(capa, sumário com páginas e destaque de sintaxe no código):
+
+```bash
+pip install reportlab
+python scripts/gerar_pdfs.py
+```
+
+Os arquivos são gravados em `Unidade 1/` como `resolucao_lista_1.pdf`,
+`resolucao_lista_2.pdf`, `resolucao_lista_3.pdf`, `resolucao_lista_condicionais.pdf`
+e `resolucao_lista_variaveis_expressoes.pdf`.
+
+**Os PDFs não são versionados no Git** (estão ignorados pelo `.gitignore`), assim
+como os PDFs de origem das listas. Para obtê-los, basta rodar o comando acima.

@@ -1,0 +1,6 @@
+# PDFs: material de origem e resolucoes em PDF nao entram no repositorio
+*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
