@@ -74,3 +74,4 @@ e `resolucao_lista_variaveis_expressoes.pdf`.
 
 **Os PDFs não são versionados no Git** (estão ignorados pelo `.gitignore`), assim
 como os PDFs de origem das listas. Para obtê-los, basta rodar o comando acima.
+Você também pode ter acesso aos PDFs e outros materiais pelo link no Google Drive: https://drive.google.com/drive/folders/1jTws1r_-xFU5PJcR-7Z98p3jfwUyEBHB?usp=drive_link
