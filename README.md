@@ -49,10 +49,10 @@ sobre a lista.
 ## Como executar
 
 É necessário ter o Python 3 instalado. Entre no diretório da lista e execute a
-questão desejada:
+questão desejada, por exemplo:
 
 ```bash
-python "Unidade 1/Lista 1/questao_01.py"
+python "Unidade 1/Lista 1/questao_01.py"   
 ```
 
 Os programas leem os dados pelo terminal (`input()`). Basta digitá-los quando

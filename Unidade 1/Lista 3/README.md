@@ -17,7 +17,7 @@ Total: **8 questões**.
 ## Como executar
 
 ```bash
-python questao_01.py
+python questao_xx.py    # onde xx é o número da questão
 ```
 
 Digite os dados pedidos quando o programa solicitar.
