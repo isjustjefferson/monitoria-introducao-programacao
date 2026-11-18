@@ -45,6 +45,7 @@ LISTAS = [
      "resolucao_lista_condicionais.pdf"),
     ("Lista Variáveis e Expressões", "Lista de Variáveis e Expressões",
      "resolucao_lista_variaveis_expressoes.pdf"),
+    ("Prova", "Prova", "resolucao_prova.pdf")
 ]
 
 PALETA = {
