@@ -30,6 +30,10 @@ Monitoria/
         ├── README.md
         ├── questao_xx.py       # onde xx é o número da questão
         └── ...
+    └── Prova/
+        ├── README.md
+        ├── questao_xx.py       # onde xx é o número da questão
+        └── ...
 ```
 
 ## Conteúdo
@@ -41,6 +45,7 @@ Monitoria/
 | `Unidade 1/Lista 3/` | Lista 3 (estruturas de repetição) | 8 |
 | `Unidade 1/Lista Condicionais/` | Comandos condicionais | 41 |
 | `Unidade 1/Lista Variáveis e Expressões/` | Variáveis e expressões | 52 |
+| `Unidade 1/Prova/` | Prova Unidade 1 | 11 |
 
 Cada arquivo `questao_xx.py` traz o enunciado como comentário (`#`) logo acima da
 resolução. Os diretórios também possuem um `README.md` próprio, com orientações
@@ -69,8 +74,7 @@ python scripts/gerar_pdfs.py
 ```
 
 Os arquivos são gravados em `Unidade 1/` como `resolucao_lista_1.pdf`,
-`resolucao_lista_2.pdf`, `resolucao_lista_3.pdf`, `resolucao_lista_condicionais.pdf`
-e `resolucao_lista_variaveis_expressoes.pdf`.
+`resolucao_lista_2.pdf`, `resolucao_lista_3.pdf`, `resolucao_lista_condicionais.pdf`, `resolucao_lista_variaveis_expressoes.pdf` e `resolucao_prova.pdf`.
 
 **Os PDFs não são versionados no Git** (estão ignorados pelo `.gitignore`), assim
 como os PDFs de origem das listas. Para obtê-los, basta rodar o comando acima.
