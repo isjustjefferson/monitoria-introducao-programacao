@@ -33,5 +33,7 @@ while True:
     maior = temperatura if temperatura > maior else maior
     menor = temperatura if temperatura < menor else menor
 
-print(f"Leituras: {leituras}", f"Média: {(total / leituras):.2f}", f"Maior: {maior:.1f}", f"Menor: {menor:.1f}", sep=" | ")
-
+if leituras == 0:
+    print("Nenhuma temperatura informada.")
+else:
+    print(f"Leituras: {leituras}", f"Média: {(total/leituras):.2f}", f"Maior: {maior:.1f}", f"Menor: {menor:.1f}", sep=" | ")
