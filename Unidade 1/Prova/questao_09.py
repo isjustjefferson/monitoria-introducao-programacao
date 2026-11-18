@@ -23,9 +23,11 @@
 # -------------------------------------------------------------
 
 total = 0
+contador = 0
 
-for i in range(3):
-    total += int(input(f"Preço do item {i+1}: R$ "))
+while contador < 3:
+    total += int(input(f"Preço do item {contador+1}: R$ "))
+    contador +=1
 
 print(f"Subtotal: R$ {total:.2f}")
 
